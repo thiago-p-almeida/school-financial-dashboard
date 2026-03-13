@@ -1,4 +1,16 @@
-.env
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 .venv/
+env/
+
+# Configurações sensíveis
+.env
+
+# Banco de dados local (se houver)
 *.db
+
+# IDEs
+.vscode/
+.idea/
